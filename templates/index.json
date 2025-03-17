@@ -48,9 +48,79 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
+    },
+    "featured_product_DW9HYU": {
+      "type": "featured-product",
+      "blocks": {
+        "text_PMTRj6": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_9DGVMh": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_XVc7Lf": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_ee3ECm": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_Pfnhtf": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_tYUayd": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_8YxgFV": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_PMTRj6",
+        "title_9DGVMh",
+        "price_XVc7Lf",
+        "variant_picker_ee3ECm",
+        "quantity_selector_Pfnhtf",
+        "buy_buttons_tYUayd",
+        "share_8YxgFV"
+      ],
+      "settings": {
+        "product": "",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "image_banner"
+    "image_banner",
+    "featured_product_DW9HYU"
   ]
 }
